@@ -5,10 +5,13 @@ htm{
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 300 11px/1.4 'Helvetica Neue','sans-serif';
+  color: #444;
+  background: #022043;
+  overflow: hidden;
+  display: block;
+  -web-font-smoothing: antialiased;
+  -maz-osx-font-smoothinh: grayscale;
+
 }
 
