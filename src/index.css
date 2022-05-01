@@ -7,11 +7,11 @@ body {
   margin: 0;
   font-family: 300 11px/1.4 'Helvetica Neue','sans-serif';
   color: #444;
-  background: #022043;
+  background: #022c43;
   overflow: hidden;
   display: block;
-  -web-font-smoothing: antialiased;
-  -maz-osx-font-smoothinh: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
 }
 
