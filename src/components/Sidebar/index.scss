@@ -88,6 +88,11 @@
                 content: 'CONTACT';
             }
         }
+        a.projects{
+            &:after{
+                content: 'PROJECT';
+            }
+        }
 
         a.active{
             svg{
