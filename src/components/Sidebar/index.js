@@ -4,7 +4,7 @@ import logoM from '../../assets/images/logo-s.png'
 import logoName from '../../assets/images/logosub.png'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faHome,faRobot,faEnvelope,faCode} from '@fortawesome/free-solid-svg-icons'
-import {faGithub,faLinkedin,faFacebook} from '@fortawesome/free-brands-svg-icons'
+import {faGithub,faLinkedin,faCodepen,faHackerrank} from '@fortawesome/free-brands-svg-icons'
 
 const Sidebar = () => (
     <div className="nav-bar">
@@ -39,7 +39,12 @@ const Sidebar = () => (
             </li>
             <li>
                 <a target="_blank" rel="noreferrer" href="">
-                <FontAwesomeIcon icon={faFacebook} color="#4d4d4e"/> 
+                <FontAwesomeIcon icon={faCodepen} color="#4d4d4e"/> 
+                </a>
+            </li>
+            <li>
+                <a target="_blank" rel="noreferrer" href="">
+                <FontAwesomeIcon icon={faHackerrank} color="#4d4d4e"/> 
                 </a>
             </li>
         </ul>
