@@ -41,7 +41,7 @@
         
     }
 
-    }
+    
     img{
         width: 50px;
         margin-left: 20px;
@@ -50,5 +50,16 @@
         animation: rotateIn 1s linear both;
         animation-delay:1.4s ;
     }
- 
 }
+
+    h2{
+        color: #8d8d8d;
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 11px;
+        font-family: sans-serif;
+        letter-spacing: 3px;
+        animation: fadein 1s 1.8s backwards;
+    }
+}
+ 
